@@ -104,10 +104,10 @@ AutodetectQueuePop:
 
             ;Sleep for 20 minutes, since you have a 30 minute window before you're disconnected
             ;This essentially prolongs the time required before you're DCd to 1 hour 20 minutes (20 min sleep + 30 min AFK + 30 min on char select)
-            Sleep 1200000
+;            Sleep 1200000
 
             ; Press enter to enter the world
-            ControlSend,, {Enter}, ahk_id %wowid%
+;            ControlSend,, {Enter}, ahk_id %wowid%
 
             ; Disable AutodetectQueuePop so it doesn't keep running in the background
             EnableAutodetectQueuePop := !EnableAutodetectQueuePop
